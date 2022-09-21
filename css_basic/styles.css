@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color:bisque;
+    background-image: url(https://images.app.goo.gl/DdTPBt1sspUJAf1S8);
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+article{
+    flex: 2;
+    overflow-y: auto;
+    text-shadow: 2px palevioletred;
+}
+aside{
+    flex: 1;
+    overflow-y: auto;
+}
+ul{
+    text-align: center;
+    background-color: aquamarine;
+    text-shadow: 2px;
+}
+footer{
+    bottom: auto;
+}
+p{
+    color:black;
+    size: 100px;
+}
+img{
+    max-width: 200px;
+}
+#me{
+    color: brown;
+    text-decoration:darkorange;
+    font-size: larger;
+    font-style: italic;
+}
+
