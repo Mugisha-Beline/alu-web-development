@@ -2,4 +2,5 @@
 ### This project is about building an webpage using just pure HTML semantic with no CSS and no styles.
 ## Language used: - HTML
 ## Screenshot
-![pigma screenshoot](https://user-images.githubusercontent.com/75361272/192472933-7a3ebc70-93da-420f-bf43-2cc63d250818.png)
+<img width="1440" alt="School Page@2x" src="https://user-images.githubusercontent.com/75361272/193261856-9aa28a00-903d-4294-975c-813a926bec5b.png">
+
