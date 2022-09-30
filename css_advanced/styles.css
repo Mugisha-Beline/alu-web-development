@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.topnav{
+    display: flex;
+    gap: 54px
+}
+.topnav a{
+    display: block;
+    color: white;
+    align-items: baseline;
+    text-decoration: none;
+}
+.logo{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+    margin-top:20px;
+}
+/* banner */
+.school h1{
+  text-align: center;
+  padding-top: 200px;
+  font-size: 50px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.school{
+    text-align: center;
+    color: white;
+}
+.button{
+    border-radius: 8px;
+    color: white;
+    background-color: blueviolet;
+    padding: 3px;
+    border-color: white;
+}
+.pros{
+    margin-top: 88px;
+    padding-top: 80px;
+    color: white;
+}
+
+.banner__sub-header{
+    text-align: center;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 38px;
+}
+.banner-list{
+    display: flex;
+    gap: 120px;
+    margin-top: 56px;
+}
+.banner-list img{
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.banner-item{
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    max-width: 150px;
+    color: white;
+}
+.div1{
+    background-image: url("./Images/BM.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.schooled{
+    /* color: white;
+    white-space: 50px; */
+    position: relative;
+    top: -70px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 220px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 56px;
+}
+    .quote {
+        background-color: #C271FF;
+        position: relative;
+        top: -70px;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        display: flex;
+        justify-content: center;
+        gap: 56px;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+    .quote__text {
+        max-width: 730px;
+        margin-bottom: 22px;
+        color: white;
+    }
+    .quote img{
+        border-radius: 100%;
+    }
+    .quote__body p{
+        color: white;
+    }
+    /* video section */
+
+    h2 > strong{
+        color: blueviolet;
+    }
+    .videos h1{
+        text-align: center;
+    }
+    h1 > strong{
+        color: blueviolet;
+    }
+    .video-section{
+        display: flex; 
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+    .author img{
+        border-radius: 100%;
+    }
+    .author{
+        display: flex;
+    }
+    .videos h1{
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+    /* membership section */
+    .membership{
+        display: flex; 
+        justify-content:space-around;
+        height: 100%;
+        padding-top: 100px; 
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .memb h1{
+        text-align: center;
+        padding-top: 80px;
+        color: white;
+    }
+    .membership p{
+        width: 200px;
+        padding-block: 5px;
+        color: white;
+    }
+    .membership h2{
+        font-weight: bold;
+        color: white;
+    }
+    .butt{
+        text-align: center;
+        border-radius: 20px;
+        color: white;
+        background-color: blueviolet;
+        margin:50px;
+        padding: 5px 5px;
+        border-color: white;
+    }
+    .memb{
+        background-color: rgb(15, 15, 74);
+        text-align: center;
+    }
+    .meb h1 > strong{
+        color: blueviolet;
+        margin-left: 100px;
+    }
+    /* FAQ */
+    .FAQ h1{
+        text-align: center;
+        padding-top: 10px;
+    }
+    .column {
+        float: left;
+        width: 40%;
+        padding: 30px;
+        margin-left: 30px;
+      }
+    .FAQ p{
+        color: gray;
+    }
+    .FAQ{
+        margin-bottom: 300px;
+    }
+    /* .container{
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        background: #071629;
+        padding-bottom: 100px;
+    } */
+    .social-icons{
+        float: right;
+        display: flex;
+        gap: 20px;
+        padding-right: 100px;
+    }
+    footer p{
+        text-align: center;
+        padding-bottom: 70px;
+    }
+    .fa {
+        padding: 7px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+      }
+      
+      /* Add a hover effect if you want */
+      .fa:hover {
+        opacity: 0.7;
+      }
+      
+      /* Facebook */
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      /* Twitter */
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-instagram{
+        background-color: rgb(195, 14, 14);
+        color: white;
+        
+      }
+      footer{
+        background-color: rgb(39, 37, 37);
+      }

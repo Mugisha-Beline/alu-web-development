@@ -2,148 +2,195 @@
 <html lang="en">
 <head>
     <meta charset ="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My webpage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head> 
 <body>
+    <div class="div1">
         <header>
-           <div> <a href="https://www.alueducation.com/#">Logo<img src="./Images/ALU logo.png" height="30" width="50" alt="logo"></a>
-            <a href="https://www.luxunyafrica.com/">Home</a>
-            <a href="https://www.luxunyafrica.com/shop/">Products</a>
-            <a href="https://www.luxunyafrica.com/retail-partner/">retail-partner</a>
-            </div>  
+            <div class="logo"> 
+                <a href="https://www.alueducation.com/#"><img src="./Images/logo.png" alt=""></a>
+            <div class="topnav">
+                <a href="#Courses">Courses</a>
+                <a href="#Pricing">Pricing</a>
+                <a href="#Login">Login</a>
+                </div>
+            </div>
         </header>
         <main>
-            <section>
-                <div>
-                    <h1>Title</h1>
-                    <p>3 WORDS</p>
-                    <button type="button">Button</button>
+            <section class="schooled">
+                <div class="school">
+                    <h1>Get schooled</h1>
+                    <p class="title title--sm title--light banner__sub-header"><span>SMILES</span> <span>GRIN</span>   <span>LAUGH</span></p>
+                    <button class="button" type="button">Register for free</button>
                 </div>
-                <div>
-                    <h2>MY BIOS</h2>
+                <div class="pros">
+                    <h2><strong>Learn</strong> from the pros</h2>
                 </div>
-                <div>        <!--Banner-->
-                    <div>
-                        <img src="./Images/alu image.png" height="300" width="200" alt="Company logo">
-                        <h3>Africa Leadership University</h3>
-                        <p>School name</p>
+                <div class="banner-list">        <!--Banner-->
+                    <div class="banner-item">
+                        <img src="./Images/Meddy.png" height="200" width="150" alt="Company logo">
+                        <h3 class="banner-title"><b>Meddy</b></h3>
+                        <p><i>singer</i></p>
+                        <p>2012-2022</p>
                     </div> 
-                    <div>
-                        <img src="./Images/me.jpeg" height="300" width="200" alt="ME">
-                        <h3>Mugisha Beline</h3>
-                        <p>Alu Student</p>
+                    <div class="banner-item">
+                        <img src="./Images/me.jpeg" height="200" width="150" alt="ME">
+                        <h3 class="banner-title"><b>Mugisha Beline</b></h3>
+                        <p><i>Alu Student</i></p>
+                        <p>2022</p>
                     </div>
-                    <div>
-                        <img src="./Images/woman.png" height="300" width="200" alt="Sister">
-                        <h3>Happiness</h3>
-                        <p>This express freedom and happiness</p>
+                    <div class="banner-item">
+                        <img src="./Images/Bruce Melody.png" height="200" width="150" alt="Sister">
+                        <h3 class="banner-title"><b>Bruce Melody</b></h3>
+                        <p><i>Singer</i></p>
+                        <p>2022</p>
                     </div>
-                    <div>
-                        <img src="./Images/Beline.jpeg" height="300" width="200" alt="Sister">
-                        <h3>myself</h3>
-                        <p>Hard worker</p>  
+                    <div class="banner-item">
+                        <img src="./Images/Beline.jpeg" height="200" width="150" alt="Sister">
+                        <h3 class="banner-title"><b>myself</b></h3>
+                        <p><i>Hard worker</i></p> 
+                        <p>2019-2022</p> 
                     </div> 
                 </div>
-            </section>
-            <section class="quote">      <!--quote-->
-                <div><img src="./Images/alu image.png" height="150" width="120" alt="Company"></div>
-                <div>
-                    <blockquote cite="https://www.alueducation.com/#">
-                        Students choose ALU because they want hands-on real world experience led by some of the world’s most innovative educators. They want a place that does not limit their potential with old rules but believes in their capacity to solve Africa’s largest challenges in new ways. They want their time at a university to lead them to a job or even to launch a company.
+            </section>       <!--quote section-->
+            <section class="quote">
+                <div><img src="./Images/Meddy.png" height="150" width="120" alt="" /></div>
+                <div class="quote__body">
+                    <blockquote class="text text--light quote__text">
+                        « Those tutorials are concise and go straight to the point. I can’t
+                        think of a better place to learn smiling. And it’s so fun!
                     </blockquote>
-                    <p>ALU Rwanda</p>
-                    <p>ALU is not for everyone</p>
+                    <p class="title title--sm title--light">Person Name</p>
+                    <p class="text text--light text--italic">weather presenter</p>
                 </div>
-            </section>
-            <section> <!-- Videos block -->
-                <h1>Videos</h1>
-                <div>
-                    <div>
-                        <img src="./Images/A L'Alse Bruce.png" height="400" width="350" alt="Song">
-                        <h2>A L'Alse</h2>
-                        <p>New Bruce Melody's song with Congolese</p>
-                    </div>
-                    <div>
-                        <img src="./Images/Queen of sheba.png" height="400" width="350" alt="Song">
-                        <h2>Queen of sheba</h2>
-                        <p>Meddy's Song with his wife Mimi</p>
-                    </div>  
-                    <div>
-                        <img src="./Images/Ndaje the ben.png" height="400" width="350" alt="Song">
-                        <h2>Ndaje</h2>
-                        <p>Gospel song by The Ben </p>
-                    </div> 
-                    <div>
-                        <img src="./Images/Touch the sky wayz.png" height="400" width="350" alt="Ariel ways">
-                        <h2>Touch the sky</h2>
-                        <p>A new hit by Ariel wayz</p>
-                    </div> 
-                    <div>     <!--Block for author -->
-                        <img src="./Images/Ariel Wayz.png" alt="Author">
-                        <h3>a Song's author and singer</h3>
-                    </div>
-                    <div>    <!--rating block-->
-                        <div>
-                            <img src="./Images/Bruce Melody.png" height="300" width="200" alt="Bruce Melody">
-                            <img src="./Images/Meddy.png" height="300" width="200"  alt="Meddy">
-                            <img src="./Images/The Ben.png" height="300" width="200"  alt="The Ben">
-                            <img src="./Images/Ariel Wayz.png" height="300" width="200"  alt="Ariel Ways">
+             </section>
+            <section class="videos"> <!-- Videos block -->
+                <h1>Most <strong>popular</strong> tutorials</h1>
+                <div class="video-section">
+                    <div class="video-pic">
+                        <img src="./Images/A L'Alse Bruce.png" height="250" width="200" alt="">
+                        <h2>Diagonal Smile</h2>
+                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                        <div class="author">
+                            <img src="./Images/Meddy.png" height="20" width="20" alt="">
+                            <h3>Phillip Massey</h3>
                         </div>
-                        <p>These are one of my favorite stars in Rwanda</p>
+                        <div class="rating">
+                            <img src="./Images/Star_1.png" alt="star">
+                            <img src="./Images/Star_1.png" alt="star">
+                            <img src="./Images/Star_1.png" alt="star">
+                            <img src="./Images/Star_1.png" alt="star">
+                            <img src="./Images/Star_5.png" alt="star">
+                            <p>8 min</p>
+                        </div>
+                    </div>
+                    <div class="video-pic">
+                        <img src="./Images/Touch the sky wayz.png" height="250" width="200" alt="">
+                        <h2>Sad Smile</h2>
+                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                    <div class="author">
+                        <img src="./Images/Meddy.png" height="20" width="20" alt="">
+                        <h3>Phillip Massey</h3>
+                    </div>
+                    <div class="rating">
+                        <img src="./Images/Star_1.png" alt="star">
+                        <img src="./Images/Star_1.png" alt="star">
+                        <img src="./Images/Star_1.png" alt="star">
+                        <img src="./Images/Star_1.png" alt="star">
+                        <img src="./Images/Star_5.png" alt="star">
+                        <p>8 min</p>
                     </div>
                 </div>
-            </section>
-            <section> <!--membership section-->
-                <h1>Membership</h1>
-                <div>
-                    <div>
-                        <img src="./Images/Membership.png"height="300" width="200" alt="Membership">
+                <div class="video-pic">
+                    <img src="./Images/Queen of sheba.png"height="250" width="200" alt="">
+                    <h2>Natural Smile</h2>
+                    <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                    <div class="author">
+                        <img src="./Images/Meddy.png" height="20" width="20" alt="">
+                        <h3>Phillip Massey</h3>
+                    </div>
+                    <div class="rating">
+                        <img src="./Images/Star_1.png" alt="star">
+                        <img src="./Images/Star_1.png" alt="star">
+                        <img src="./Images/Star_1.png" alt="star">
+                        <img src="./Images/Star_1.png" alt="star">
+                        <img src="./Images/Star_5.png" alt="star">
+                        <p>8 min</p>
+                    </div>
+                </div>
+                <div class="video-pic">
+                    <img src="./Images/Ndaje the ben.png"height="250" width="200" alt="">
+                    <h2>Happy Smile</h2>
+                    <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                    <div class="author">
+                        <img src="./Images/Meddy.png" height="20" width="20" alt="">
+                        <h3>Phillip Massey</h3>
+                    </div>
+                    <div class="rating">
+                        <img src="./Images/Star_1.png" alt="star">
+                        <img src="./Images/Star_1.png" alt="star">
+                        <img src="./Images/Star_1.png" alt="star">
+                        <img src="./Images/Star_1.png" alt="star">
+                        <img src="./Images/Star_5.png" alt="star">
+                        <p>8 min</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+            <section class="memb"> <!--membership section-->
+                <h1><strong>Free</strong> Membership</h1>
+                <div class="membership">
+                    <div>	
+                        &#10024;
                         <h2>Membership logo</h2>
                         <p>Working together is the key to success</p>
                     </div>
                     <div>
-                        <img src="./Images/Join us.png" height="300" width="200" alt="Join us">
+                        &#10024;
                         <h2>Join Us</h2>
                         <p>Join us and we help you develop</p>
                     </div>
                     <div>
-                        <img src="./Images/Free membership.png"height="300" width="200" alt="membership">
+                        &#10024;
                         <h2>Free membership</h2>
                         <p>You become one of us at zero cost</p>
                     </div>
                     <div>
-                        <img src="./Images/membership2.png"height="300" width="200" alt="membership2">
+                        &#10024;
                         <h2>Membership2</h2>
                         <p>Your consistance and commitment needed</p>
                     </div>
                 </div>
-                <button type="button">Button</button>
+                <button class="butt" type="button">Register for free</button>
             </section>
-            <section> <!--FAQ section-->
+            <section class="FAQ"> <!--FAQ section-->
                 <h1>FAQ</h1>
-                <div>
-                    <div>
-                        <h2>Title</h2>
-                        <p>Text</p>
+                <div class="about">
+                    <div class="column">
+                        <h2>How does this work</h2>
+                        <p>A music school is an educational institution specialized in the study, training, and research of music. Such an institution can also be known as a school of music, music academy, music faculty, college of music, music department, conservatory, conservatorium or conservatoire</p>
                     </div>
-                    <div>
-                        <h2>Title</h2>
-                        <p>Text</p>
+                    <div class="column">
+                        <h2>How does this work</h2>
+                        <p>A music school is an educational institution specialized in the study, training, and research of music. Such an institution can also be known as a school of music, music academy, music faculty, college of music, music department, conservatory, conservatorium or conservatoire</p>
                     </div>
                 </div>
             </section>
         </main> 
-        <footer>
-            <div>
-                <div>
-                    <img src="./Images/Meddy.png" height="200" width="150" alt="new hit">
-                <div>
-                    <a href="https://www.youtube.com/watch?v=l1LRF3Z4goE">Queen of sheba song<img src="./Images/Queen of sheba.png" height="200" width="150" alt="new hit"></a>
-                </div>
-                </div>
+    <footer>
+        <div>
+            <img src="images/logo.png" alt="">
+            <div class="social-icons">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
             </div>
-            <p>This the first fav artist in Rwanda</p>
+        </div>
+        <p>&#169;smileschool 2020</p>
         </footer>
-        </section>
 </body>
 </html>
