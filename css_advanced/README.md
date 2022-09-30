@@ -4,4 +4,5 @@ This webpage contains some HTML advanced and css advanced and It is about my Bio
 - Html
 - css
 ## Webpage styles pigma
-![pigma screenshoot](https://user-images.githubusercontent.com/75361272/192749841-cd8413ac-5306-4e61-9bf0-00c3615c395d.png)
+<img width="1440" alt="School Page@2x" src="https://user-images.githubusercontent.com/75361272/193261537-ca64983f-bc58-4962-a0b2-8b12da872858.png">
+
