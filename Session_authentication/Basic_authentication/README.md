@@ -1,1 +1,1 @@
-session authentication
+# Session authentication in action
