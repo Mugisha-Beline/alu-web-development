@@ -1,71 +1,35 @@
 #!/usr/bin/env python3
-""" Module of auth
+"""
+Class to manage API authentication
 """
 from flask import request
 from typing import List, TypeVar
 
 
 class Auth:
-    """ Auth Class """
-
-    def __init__(self):
-        """
-            Constructor
-
-            Args:
-                path: path to authenticate
-                excluded_paths: list of excluded path to authenticate
-        """
+    """Class to manage API authentication
+    """
 
     def require_auth(self, path: str, excluded_paths: List[str]) -> bool:
+        """Check if path is in the list of excluded paths
         """
-            Require the auth
-
-            Args:
-                path: path to authenticate
-                excluded_paths: list of excluded path to authenticate
-
-            Return:
-                True if is authenticated otherwise false
-        """
-        if path is None or excluded_paths is None or len(excluded_paths) == 0:
+        if not path or not excluded_paths:
             return True
-
-        if path[-1] is not '/':
+        if path[-1] != '/':
             path += '/'
-
-        for paths in excluded_paths:
-            if paths.endswith('*'):
-                if path.startswith(paths[:-1]):
-                    return False
-            elif path == paths:
+        for p in excluded_paths:
+            if path[:p.find('*')] in p[:p.find('*')]:
                 return False
-
         return True
 
     def authorization_header(self, request=None) -> str:
+        """Return authorization header
         """
-            Look the headers
-
-            Args:
-                request: Look the autthorization
-
-            Return:
-                The authorization header or None
-        """
-        if request is None:
+        if not request:
             return None
-
-        return request.headers.get('Authorization', None)
+        return request.headers.get('Authorization')
 
     def current_user(self, request=None) -> TypeVar('User'):
+        """Return None
         """
-            Look current user
-
-            Args:
-                request: Look the reques user
-
-            Return:
-                The user
-        """
-        return request
+        return None
