@@ -21,7 +21,7 @@ def hello_world() -> str:
 
 @app.route('/users', methods=['POST'])
 def register_user() -> str:
-
+    """registers a userer"""
     try:
         email = request.form['email']
         password = request.form['password']
