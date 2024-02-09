@@ -55,7 +55,7 @@ class Auth:
         return session_id
 
     def get_user_from_session_id(self, session_id: str) -> Union[str, None]:
-        """ """
+        """ gets user from session id """
         if session_id is None:
             return None
         try:
